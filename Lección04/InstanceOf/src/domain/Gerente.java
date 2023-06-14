@@ -3,11 +3,10 @@ package domain;
 public class Gerente extends Empleado{
     private String departamento;
     
-    public Gerente(String nombre, double sueldo, String departamento){
-        super(nombre, sueldo);
+    public Gerente(String nombre, double salario, String departamento){
+        super(nombre, salario);
         this.departamento = departamento;
     }
-    //sobreescribimos el metodo
     @Override
     public String obtenerDetalles(){
         return super.obtenerDetalles()+", departamento: "+this.departamento;
@@ -22,3 +21,4 @@ public class Gerente extends Empleado{
     }
     
 }
+

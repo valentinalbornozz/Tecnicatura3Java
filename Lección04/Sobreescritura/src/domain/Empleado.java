@@ -1,5 +1,6 @@
 package domain;
 public class Empleado {
+    //Clase 4 
     protected String nombre;
     protected double sueldo;
 
@@ -13,9 +14,11 @@ public class Empleado {
         return "Nombre: "+this.nombre+", sueldo: "+this.sueldo;
     }
 
+    //Getters and Setters
     public String getNombre(){
         return nombre;
     }
+    
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
